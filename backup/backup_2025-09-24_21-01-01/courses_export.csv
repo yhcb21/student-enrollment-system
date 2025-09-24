@@ -1,0 +1,5 @@
+courseCode,title,credits,semester,instructorId,department
+CS101,Introduction to Programming,3,FALL,1,Computer Science
+CS201,Data Structures,4,SPRING,1,Computer Science
+MA101,Calculus I,4,FALL,2,Mathematics
+PY101,Introductory Physics,3,SPRING,2,Physics

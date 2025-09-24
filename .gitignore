@@ -1,0 +1,13 @@
+# Compiled class files
+*.class
+
+# Output directories
+/bin/
+/out/
+
+# IDE files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
