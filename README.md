@@ -11,17 +11,17 @@ This project is a comprehensive, command-line-based student management system de
 
 ### 1. From the Command Line
 1.  **Clone the repository:**
-```bash
-    git clone [https://github.com/your-username/student-enrollment-system.git](https://github.com/yourusername/student-enrollment-system.git)
+    ```bash
+    git clone [https://github.com/your-username/student-enrollment-system.git](https://github.com/your-username/student-enrollment-system.git)
     cd student-enrollment-system
-	```
-3.  **Create the data directory:**
+    ```
+2.  **Create the data directory:**
     ```bash
     mkdir data
     ```
     Create `students.csv` and `courses.csv` inside the `data` folder and populate them with the sample data.
 
-4.  **Compile all source files:**
+3.  **Compile all source files:**
     ```bash
     # Create a directory for compiled classes
     mkdir bin
@@ -33,7 +33,7 @@ This project is a comprehensive, command-line-based student management system de
     javac -d bin src\edu\ccrm\cli\*.java src\edu\ccrm\config\*.java src\edu\ccrm\domain\*.java src\edu\ccrm\exception\*.java src\edu\ccrm\io\*.java src\edu\ccrm\service\*.java src\edu\ccrm\util\*.java
     ```
 
-5.  **Run the application:**
+4.  **Run the application:**
     ```bash
     java -cp bin edu.ccrm.cli.CliManager
     ```
@@ -151,11 +151,20 @@ Here is a sample workflow you can follow when running the application:
 6.  **Export current data:** `4` (Data Management) -> `1` (Export)
 7.  **Create a backup:** `4` (Data Management) -> `2` (Backup)
 8.  **View a report:** `5` (View Reports) -> `1` (GPA Distribution)
-9.  **Exit:** `6`          
+9.  **Exit:** `6`
 
-# Application Usage Guide 
-This guide provides the necessary data files and a sample command workflow to demonstrate the core features of the Student Course & Enrollment Management System. 
-## Sample Data Files 📁 
-For the application to work, create a `data` folder in the root of your project and add the following files. 
-### `data/students.csv` 
-```csv id,regNo,fullName,email,dob 1,S001,Alice Johnson,alice.j@example.com,2002-05-15 2,S002,Bob Williams,bob.w@example.com,2001-08-22 3,S003,Charlie Brown,charlie.b@example.com,2002-11-30
+# Application Usage Guide
+
+This guide provides the necessary data files and a sample command workflow to demonstrate the core features of the Student Course & Enrollment Management System.
+
+## Sample Data Files 📁
+
+For the application to work, create a `data` folder in the root of your project and add the following files.
+
+### `data/students.csv`
+```csv
+id,regNo,fullName,email,dob
+1,S001,Alice Johnson,alice.j@example.com,2002-05-15
+2,S002,Bob Williams,bob.w@example.com,2001-08-22
+3,S003,Charlie Brown,charlie.b@example.com,2002-11-30
+```
