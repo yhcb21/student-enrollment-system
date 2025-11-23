@@ -157,7 +157,7 @@ Here is a sample workflow you can follow when running the application:
 
 This guide provides the necessary data files and a sample command workflow to demonstrate the core features of the Student Course & Enrollment Management System.
 
-## Sample Data Files 📁
+## Sample Data Files 
 
 For the application to work, create a `data` folder in the root of your project and add the following files.
 
